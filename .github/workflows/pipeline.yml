@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Building the application..."
+      - run: echo "Building the application v2..."
 
   test:
     needs: build
